@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+  }
+  .navbar-nav{
+   
+    position: fixed;
+    left:0;
+    top:0;
+    
+  
+    }
+    .dropleft{
+           background-color:#fff;
+          border:0 !important;
+      
+    } 
+    .dropleft .dropdown-toggle::before {
+      border-left: .3em solid !important;
+      border-right: 0 !important;
+    }
+    h3{
+      font-family: "Montserrat", sans-serif;
+    }
+    img.ax{
+    -webkit-filter: grayscale(81%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(81%);
+    
+}
+h4 span{
+  position: absolute;
+  top:0;
+  left: 15px;
+  border-radius: 0!important;
+  font-weight: 200 !important;
+  background-color: #000!important;
+
+}
+#bt{
+  position: absolute;
+  top:12%;
+  left: 6%;
+  border-radius: 0!important;
+  font-weight: 400 !important;
+  background-color: #000!important;
+  border-radius: 0;
+}
+#bt:hover{
+  background-color: #ccc!important;
+  color: #000!important;
+}
+
+span h1{
+  position: absolute;
+  top:4%;
+  left:3%;
+  font-weight: 500 !important;
+
+}
+span h2{
+  position: absolute;
+  top:8%;
+  left:3%;
+  font-size: 2.2em;
+}
+.buy{
+
+  position: absolute;
+  top:35%;
+  left:23%;
+  background-color: #000;
+  border-radius: 0 !important;
+
+}
+.buy:hover{
+
+background-color: #818181;
+color: #000  !important;
+box-shadow: 1px 1px 1px #ccc !important;
+z-index: 3;
+}
+.card,.forn,.footer{
+  background-color: #000!important;
+  border: 1px solid black;
+  border-radius: 0!important;
+
+}
+
+
+form .form-control{
+  border-radius: 0;
+}
+.jumbotron {
+  margin-bottom: 0 !important;
+  border-radius: 0!important;
+}
+.card-footer>button{
+    border-radius: 0;
+    width: 120px;
+    margin-left: -20px;
+    background-color: #f44336!important;
+}
+.card-footer{
+    height: 100px;;
+}
+#text p>a{
+    color: #000;
+    text-decoration-line: underline;
+     
+}
+.footer a{
+    color:#fff;
+    text-decoration-line: underline;
+}
+/* Style the navbar links and the dropdown button */
+.navbar a, .dropdown-btn {
+  padding: 6px 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  background-color: transparent;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.navbar-nav li:hover:not(.dropdown){
+background-color: #ccc5c5;
+}
+ul.dropdown-menu {
+  background-color: transparent;
+
+}
+.dropdown-item{
+  color:lightgray;
+}
+.row img{
+  width: 100%;
+}
+#text{
+  margin-left: -1.75%;
+  width: 102%;
+}
+#myModal{
+
+}
+
+
+/* Some media queries for responsiveness */
+
+@media screen and (max-width: 770px) {
+  #k{
+   display: none;
+  }
+  #text{
+    margin: 0 auto;
+    
+  }
+}
+
+ @media screen and (max-width: 700px) {
+  
+  #k{
+    display: none;
+   }
+} 
+
+ @media screen and (max-width: 770px){
+  span h1{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    font-size: 2.5em!important;
+    font-weight: 500 !important;
+  
+  }
+  span h2{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    font-size: 1.2em;
+  }
+  #bt{
+    position: absolute;
+    top: 7%!important;
+    left: 6%!important;
+    border-radius: 0!important;
+    font-weight: 400 !important;
+    background-color: #000!important;
+    border-radius: 0;
+  
+  }
+  .buy{
+
+    position: absolute;
+    top:35%;
+    left:32%;
+    background-color: #000;
+    border-radius: 0 !important;
+  
+  }
+ }
+
+ @media screen and (max-width: 450px){
+  span h1{
+    position: absolute;
+    top: 2%;
+    left: 3%;
+    font-size: 2.5em!important;
+    font-weight: 500 !important;
+  
+  }
+  span h2{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    font-size: 1.2em;
+  }
+  #bt{
+    position: absolute;
+    top: 4%!important;
+    left: 9%!important;
+    border-radius: 0!important;
+    font-weight: 400 !important;
+    background-color: #000!important;
+    border-radius: 0;
+  
+  }
+ }
+ .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px ;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: ;
+    width:100%;
+}
+.b{
+width:100%
+
+}

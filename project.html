@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap 4 DEMO</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles1.css">
+  <link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/all.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="jquery-3.3.1.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="navbar bg-whait navbar-light col-lg-3 col-sm-4 h-100% w-25 pt-2" id="k" style=" overflow-x:hidden;overflow-y: scroll;">
+
+        <ul class="navbar-nav px-5 ">
+          <a class="px-5 mt-5">
+            <h3>LOGO</h3>
+          </a>
+          <li class="nav-item px-5 mt-5">
+            <a class="nav-link" href="#">Shirts</a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link" href="#">Dresses</a>
+          </li>
+          <li class="dropdown px-5">
+            <a class="nav-link  dropdown-toggle" data-toggle="dropdown">
+              Wide
+            </a>
+            <ul class="dropdown-menu  dropleft dropdown-menu-right">
+              <a class=" dropdown-toggle" data-toggle="dropdown">
+                Relaxed
+              </a>
+
+              <a class="dropdown-item" href="#">Bootcut</a>
+              <a class="dropdown-item" href="#">Straight</a>
+              <a class="dropdown-item" href="#">Straight</a>
+            </ul>
+          </li>
+
+          <li class="nav-item px-5">
+            <a class="nav-link" href="#">Jackets</a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link" href="#">Gymwear</a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link" href="#">Blazers</a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link" href="#">Shoes</a>
+          </li>
+          <li class="nav-item px-5 mt-5">
+            <a class="nav-link text-lowercase" href="#Contact">Contact</a>
+          </li>
+          <li class="nav-item px-5 ">
+            <a class=" btn nav-link text-lowercase" data-toggle="modal" data-target="#myModal">
+              modal
+            </a>
+          </li>
+          <li class="nav-item px-5  ">
+            <a class="nav-link text-lowercase" href="#">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+      <div class="sidenav" id="#k">
+      </div>
+
+      <nav class="navbar navbar-sm bg-dark navbar-dark col-sm-12 py-4 " id="f">
+        <a class="navbar-brand text-uppercase" href="#">logo</a>
+        <button class="navbar-toggler " type="button" data-toggle="co" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon " onclick="openNav()"></span>
+        </button>
+        <div class="co navbar-collapse" id="collapsibleNavbar">
+
+          <ul class="navbar-nav col-sm-12 ">
+            <li id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a class="ml-2" href="#">About</a>
+              <a class="ml-2" href="#">Services</a>
+              <a class="ml-2" href="#">Contact</a>
+              <a class="ml-2" href="#">Contact</a>
+              <a class="dropdown  ">
+                <a class="nav-link  dropdown-toggle  ml-5 pr-2 text-dark" data-toggle="dropdown">
+                  Wide
+                </a>
+                <ul class="dropdown-menu  dropleft dropdown-menu-center">
+                  <a class=" dropdown-toggle" data-toggle="dropdown">
+                    Relaxed
+                  </a>
+
+                  <a class="dropdown-item" href="#">Bootcut</a>
+                  <a class="dropdown-item" href="#">Straight</a>
+                  <a class="dropdown-item" href="#">Straight</a>
+                </ul>
+              </a>
+              <a class=" ml-2" href="#">Contact</a>
+              <a class="  ml-2" data-toggle="modal" data-target="#myModal">
+                modal
+              </a>
+              <a class="ml-2" href="#">Contact</a>
+
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+
+
+
+
+
+      <div class="col-lg-8 col-sm-12 mt-4">
+        <div class="d-flex mb-3 bg-whait">
+          <div class="p-2 mr-auto font ">
+            <h3 >Jeans</h3>
+          </div>
+          <div class="p-2">
+            <h3><i class="fa fa-shopping-cart "></i></h3>
+          </div>
+          <div class="p-2 ">
+            <h3><i class="fa fa-search"></i></h3>
+          </div>
+        </div>
+
+        <img src="images/jeans.jpg" alt="images" class="col-sm-12 animated zoomIn" style="width:100%">
+        <span>
+          <h1 class="display-4 text-white p-4 animated bounce  delay-1s">New arrivals</h1>
+        </span>
+        <span>
+          <h2 class="text-white px-4 my-4 animated zoomInLeft">COLLECTION 2016</h2>
+        </span>
+        <button type="button" class="btn text-white px-3 py-2 ml-1 text-uppercase animated zoomInLeft" id="bt">show now</button>
+
+        <div class="container " id="text">
+          <p class="pt-4 pl-3 "> 8 item</p>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <img src="images/jeans1.jpg" class=" ax" alt="ax">
+              <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6"> <img src="images/jeans2.jpg" class="ax " alt="ax" id="Ax">
+              <h4> <span class="badge text-white ">New</span></h4>
+              <button type="button" class="btn  text-capitalize text-white buy " id="div2">buy now<i class="fa fa-shopping-cart"></i></button>
+              <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6"> <img src="images/jeans3.jpg" class="ax  " alt="ax">
+              <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6"> <img src="images/jeans4.jpg" class="ax " alt="ax">
+              <p>Vintage Skinny Jeans<br><b>$14.99</b></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-sm-6"> <img src="images/jeans3.jpg" class=" ax" alt="ax">
+              <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+            </div>
+            <div class="col-lg-3 col-sm-6"> <img src="images/jeans2.jpg" class="ax " alt="ax">
+              <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+            </div>
+            <div class="col-lg-3 col-sm-6"> <img src="images/jeans4.jpg" class="ax  " alt="ax" id="aX">
+              <h4> <span class="badge badge-secondary px-2">Sale</span></h4>
+              <button type="button" class="btn  text-capitalize text-white buy  " id="div1">buy now<i class="fa fa-shopping-cart"></i></button>
+              <p>Washed Skinny Jeans<br><b class="spa">$20.50</b></p>
+            </div>
+            <div class="col-lg-3 col-sm-6"> <img src="images/jeans1.jpg" class="ax " alt="ax">
+              <p>Vintage Skinny Jeans<br><b>$14.99</b></p>
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="card col-sm-12 ">
+              <div class="card-header text-white pt-5" style="width:100%;">
+                <h2>Subscribe</h2>
+
+                <p>To get special offers and VIP treatment:</p>
+              </div>
+              <input class="mt-2 p-2" placeholder="Enter e-mail">
+
+              <div class="card-footer "> <button type="button" class="btn btn-danger"> submit </button></div>
+
+            </div>
+          </div>
+          <div class="row jumbotron  pt-4" id="Contact">
+            <div class=" col-lg-4 col-sm-12">
+              <form class="form-block pt-5 text-center" action="/action_page.php">
+                <h4>Contact</h4>
+                <p>Questions? Go ahead.</p>
+
+                <input type="email" class="form-control mt-2 ml-3" id="email" placeholder="Name" name="email">
+                <input type="email" class="form-control mt-2 ml-3" id="email" placeholder="Enter email" name="email">
+                <input type="email" class="form-control mt-2 ml-3" id="email" placeholder="Subject" name="email">
+                <input type="password" class="form-control mt-2 ml-3" id="pwd" placeholder="Messege" name="pswd">
+
+                <input type="submit" class="form-control mt-2 ml-3 forn text-white" value="send">
+              </form>
+            </div>
+            <div class="col-lg-4 col-sm-6  mt-5 text-center" id="text">
+              <h4>About</h4>
+              <p><a href="#">About us</a></p>
+              <p><a href="#">We're hiring</a></p>
+              <p><a href="#">Support</a></p>
+              <p><a href="#">Find store</a></p>
+              <p><a href="#">Shipment</a></p>
+              <p><a href="#">Payment</a></p>
+              <p><a href="#">Gift card</a></p>
+              <p><a href="#">Return</a></p>
+              <p><a href="#">Help</a></p>
+            </div>
+            <div class="col-lg-4 col-sm-6 mt-5 text-center ">
+              <h4>Store</h4>
+              <p><i class="fa fa-fw fa-map-marker"></i> Company Name</p>
+              <p><i class="fa fa-fw fa-phone"></i> 0044123123</p>
+              <p><i class="fa fa-fw fa-envelope"></i> ex@mail.com</p>
+              <h4>We accept</h4>
+              <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
+              <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+              <br>
+              <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
+              <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
+              <i class="fa fa-snapchat w3-hover-opacity w3-large"></i>
+              <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
+              <i class="fa fa-twitter w3-hover-opacity w3-large"></i>
+              <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
+            </div>
+
+          </div>
+
+          <div class="row ">
+            <div class="footer text-center text-white col-12 text-center pt-4" style=" height:70px;">
+              <span> Powered by </span>
+              <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank">w3.css</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  </div>
+  </div>
+  <!-- The Modal -->
+  <div class="modal animated bounceIn" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">NEWSLETTER</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          Modal body..
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    $(document).ready(function () {
+      $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').trigger('focus')
+      })
+
+      $("#aX").mouseover(function () {
+        $("#div1").fadeToggle();
+
+      });
+      $("#Ax").mouseover(function () {
+        $("#div2").fadeToggle();
+      });
+    });
+  </script>
+
+
+
+</body>
+
+</html>
